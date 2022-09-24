@@ -1,0 +1,58 @@
+.info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.wrapper {
+  flex-basis: 50%;
+}
+
+.location {
+  margin-bottom: 5px;
+
+  font-weight: 700;
+  font-size: 64px;
+}
+
+.date {
+  margin-bottom: 20%;
+
+  font-weight: 100;
+  font-size: 22px;
+}
+
+.temp {
+  font-weight: 100;
+  font-size: 124px;
+  &::after {
+    content: '°';
+  }
+}
+
+.temp__weath {
+  font-weight: 100;
+}
+.list__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+
+  margin-bottom: 50px;
+}
+
+.temp__max,
+.temp__min {
+  &::after {
+    content: '°';
+  }
+  font-weight: 400;
+  font-size: 32px;
+}
+
+.temp__descr {
+  font-weight: 16px;
+  font-weight: 100;
+}
