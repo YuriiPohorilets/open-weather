@@ -1,29 +1,52 @@
 <div class="container">
-  <!-- <form class="form">
-    <label class="form__label" for="search__input">Enter location</label>
-    <input class="form__input" id="search__input" type="text" name="search__input" />
+  <form class="form">
+    <label class="form__label" for="form__input">Enter location...</label>
+    <input class="form__input" id="form__input" name="form__input" type="text" />
 
     <button class="form__btn" type="submit">Search</button>
-  </form> -->
-
-  <div class="info">
+  </form>
+  <div class="info__wrapper">
     <div class="wrapper">
-      <div class="location"></div>
-      <div class="date"></div>
-      <span class="temp"></span>
-      <div class="temp__weath"></div>
+      <div class="city">Kyiv</div>
+      <span class="date">Monday, 31 September 2022</span>
     </div>
 
-    <div class="wrapper">
-      <div class="temp__max"></div>
-      <div class="temp__descr">High</div>
-      <div class="temp__min"></div>
-      <div class="temp__descr">Low</div>
-      <div class="temp__min"></div>
-      <div class="temp__descr">Low</div>
+    <div class="wrapper__info">
+      <div class="temp__info">
+        <svg class="temp__icon">
+          <use href="./images/icon-sprite.svg#icon-cloud"></use>
+        </svg>
+        <span class="temp">9</span>
+      </div>
+
+      <span class="descr">Cloudy</span>
     </div>
   </div>
 
-  <!-- <img class="img" src="#" alt="" width="20px" height="20px" /> -->
-  <!-- <ul class="week"></ul> -->
+  <div class="extra__info">
+    <div class="max">
+      <span class="value">10</span>
+      <span class="descr">Max</span>
+    </div>
+    <div class="wind">
+      <span class="value">7mps</span>
+      <span class="descr">Wind</span>
+    </div>
+    <div class="sunrise">
+      <span class="value">05:27</span>
+      <span class="descr">Sunrise</span>
+    </div>
+    <div class="min">
+      <span class="value">8</span>
+      <span class="descr">Min</span>
+    </div>
+    <div class="rain">
+      <span class="value">20%</span>
+      <span class="descr">Rain</span>
+    </div>
+    <div class="sunset">
+      <span class="value">20:57</span>
+      <span class="descr">Sunset</span>
+    </div>
+  </div>
 </div>
